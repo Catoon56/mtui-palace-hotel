@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #033d57;
+    color: white;
+}
+
+.mim {
+    padding: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    background: center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 40px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #0077cc;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.bt {
+    background-color: #0077cc;
+    color: rgb(27, 23, 23);
+    padding: 7px 24px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 6px;
+}
+
+.overview,
+.services,
+.booking-form,
+.room-list {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.room-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mimi {
+    max-width: 90%;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.room-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.notice {
+    color: #8f0606;
+}
+
+.room-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.customer-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.customer-photos img {
+    max-width: 90%;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.customer-photos .caption {
+    font-style: italic;
+    margin-bottom: 40px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
